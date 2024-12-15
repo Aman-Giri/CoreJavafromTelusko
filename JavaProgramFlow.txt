@@ -1,0 +1,32 @@
+Here’s every single step of how a Java program runs, with references to JDK, JRE, and JVM:
+
+1. Writing the Code (Developer’s Step) 
+- You write Java code in a `.java` file (e.g., `HelloWorld.java`).  
+- JDK’s Role**: The JDK provides tools like a text editor, compiler (`javac`), and libraries for coding.
+
+2. Compiling the Code
+- The Java compiler (`javac`) converts the `.java` file into a `.class` file containing **bytecode** (a platform-independent intermediate language).  
+- JDK’s Role: The `javac` compiler is part of the JDK and handles this step.
+
+3. Running the Bytecode
+- You use the Java command (`java HelloWorld`) to execute the program.  
+- The `.class` file (bytecode) is passed to the **JVM**.
+
+4. JVM Execution**  
+JVM’s Role:  
+  1. Class Loader: Loads the `.class` file into memory.  
+  2. Bytecode Verifier: Checks for any code violations or security risks.  
+  3. Interpreter: Converts bytecode into machine code (line by line).  
+  4. JIT Compiler: (Just-In-Time Compiler): Optimizes frequently used code by compiling it into native machine code for faster execution.  
+
+5. Running in the Environment**  
+- The JVM uses the resources and libraries provided by the JRE to run the program.  
+- JRE’s Role:  
+  - Provides the JVM.  
+  - Provides essential libraries and tools required by the program to execute (e.g., I/O libraries).
+
+
+Full Reference to JDK, JRE, and JVM  
+1. JDK: Enables writing and compiling the program.  
+2. JRE: Provides the environment and libraries to run the program.  
+3. JVM: Executes the bytecode by translating it into machine code.
