@@ -1,4 +1,4 @@
-Here’s every single step of how a Java program runs, with references to JDK, JRE, and JVM:
+JAVA PROGRAM FLOW EXPLANATION:
 
 1. Writing the Code (Developer’s Step) 
 - You write Java code in a `.java` file (e.g., `HelloWorld.java`).  
